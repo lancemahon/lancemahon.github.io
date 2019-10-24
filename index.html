@@ -1,1 +1,308 @@
-hello world
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Lance Mahon</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+
+</head>
+
+
+<body id="top">
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-jump">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="row">
+
+            <div class="header-logo">
+                <a class="site-logo" href="index.html"><img src="images/icons/ProfilePicAtlanta.jpg" alt="Homepage"></a>
+            </div>
+
+            <nav class="header-nav-wrap">
+                <ul class="header-nav">
+                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                    <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
+                    <li><a class="smoothscroll"  href="#projects" title="projects">Projects</a></li>
+                    <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
+                </ul>
+            </nav> <!-- end header-nav-wrap -->
+
+            <a class="header-menu-toggle" href="#0">
+                <span class="header-menu-icon"></span>
+            </a>
+
+        </div> <!-- end row -->
+
+    </header> <!-- end s-header -->
+
+
+    <!-- home
+    ================================================== -->
+    <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <h1>
+                Lance Mahon
+                </h1>
+
+                <div class="home-content__button">
+                    <a href="#about" class="smoothscroll btn btn-animatedbg">
+                        About Me
+                    </a>
+                </div>
+
+            </div> <!-- end home-content__main -->
+
+            <div class="home-content__scroll">
+                <a href="#about" class="scroll-link smoothscroll">
+                    Scroll
+                </a>
+            </div>
+
+        </div> <!-- end home-content -->
+<!--
+        <ul class="home-social">
+            <li>
+                <a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i><span>Facebook</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fab fa-behance" aria-hidden="true"></i><span>Behance</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i><span>Dribbble</span></a>
+            </li>
+        </ul> <!-- end home-social --> -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 data-num="01" class="subhead">I am a...</h3>
+                <h1 class="display-1">
+                  Charleston-based Software Engineer with a love of learning...
+                </h1>
+                <p class="lead">
+                  There's nothing like seeing a problem that seems insurmountable, and finding ways to break it down into solveable pieces. To me, software engineering is an extension of my natural problem-solving process. I always appreciate a learning opportunity that challenges me to add new techniques to my quiver.
+                </p>
+                <hi class="display-1">
+                  ... and a weakness for cats.
+                </hi>
+                <p class="lead">
+                  This is who it's all for. (Cat image goes here, working on it...)
+                </p>
+
+            </div>
+        </div>
+
+    </section> <!-- end s-about -->
+
+
+    <!-- projects
+    ================================================== -->
+    <section id="projects" class="s-projects target-section">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 data-num="02" class="subhead">Recent projects</h3>
+                <h1 class="display-1 display-1--light">
+                Here's what I've been working on.
+                </h1>
+                <p class="lead lead-light">
+                I recently completed a 600-hour, Software Engineering Immersive bootcamp with General Assembly in Boston, MA. I learned to build full-stack applications with a variety of front-end and back-end technologies. Here are some apps that I've built recently.
+                </p>
+            </div>
+        </div>
+
+        <div class="row projects-list block-1-3 block-m-1-2 block-tab-full">
+
+            <div class="col-block item-service mtg-deck-builder" data-aos="fade-up">
+                <h4>Magic: The Gathering Deck Builder</h4>
+                <p>
+                Built a full-stack web application from scratch using React.js and Express.
+                Used a 3rd-party API to access Magic cards from a database
+                Enabled complex boolean search queries to narrow search space for specific cards
+                </p>
+                <a target="_blank" rel="noopener noreferrer" href="https://lancemahon.github.io/mtg-deck-builder/">Check it out</a>
+            </div>
+
+            <div class="col-block item-service bucket-list" data-aos="fade-up">
+                <h4>Bucket List</h4>
+                <p>
+                Worked with 3 other developers to design, construct and deploy a full-stack application.
+                Deployed a NoSQL backend with MongoDB through Express.
+                Coordinated through GitHub to collectively produce a working app.
+                </p>
+            </div>
+
+            <div class="col-block item-service d&d" data-aos="fade-up">
+                <h4>Dungeons & Dragons Character Creator</h4>
+                <p>
+                Constructed a relational database with SQL/Rails and wrote routes to support standard CRUD actions.
+                Built an interactive front end for a user to create D&D characters, as well as view/update/delete those characters.
+                </p>
+                <a target="_blank" rel="noopener noreferrer" href="https://lancemahon.github.io/full-stack-project-client/">Check it out</a>
+            </div>
+
+            <div class="col-block item-service tic-tac-toe" data-aos="fade-up">
+                <h4>Tic-Tac-Toe</h4>
+                <p>
+                Built the front end of a browser game, including user account registration and ownership.
+                Used HTML/CSS and JavaScript/jQuery to put together an interactive front end.
+                Wrote Ajax requests to a Rails API to dynamically update user-facing content.
+                </p>
+                <a target="_blank" rel="noopener noreferrer" href="https://lancemahon.github.io/tic-tac-toe-lance/">Check it out</a>
+            </div>
+
+        </div> <!-- end projects-list -->
+
+    </section> <!-- end s-projects -->
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact target-section">
+
+        <div class="row contact-infos">
+
+            <div class="col-five md-seven tab-full contact-address" data-aos="fade-up">
+                <h4>Where to Find Me</h4>
+
+                <p>
+                1319 Coastal Marsh Road<br>
+                Mount Pleasant, South Carolina <br>
+                29464 US
+                </p>
+            </div>
+
+
+            <div class="col-four md-six tab-full contact-number" data-aos="fade-up">
+                <h4>Contact Me</h4>
+
+                <ul class="contact-list">
+                    <li><a href="mailto:#0">lance.mahon@gmail.com</a></li>
+                    <li><a href="tel:910 682 8245">910 682 8245</a></li>
+                </ul>
+            </div>
+
+        </div> <!-- end contact-infos -->
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+        <div class="row">
+            <div class="col-full cl-copyright">
+                <span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+</span>
+            </div>
+        </div>
+
+        <div class="cl-go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top"></a>
+        </div>
+    </footer>
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div><!-- end photoSwipe background -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
